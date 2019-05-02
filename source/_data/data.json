@@ -36,6 +36,18 @@
     "logo_gray": {
       "src": "../../images/Georgetown_logo_grayRGB.jpg",
       "alt": "Georgetown Logo grayRGB"
+    },
+    "bgd_logo": {
+      "src": "../../images/bdg_logo.png",
+      "alt": "Blue and gray day logo"
+    },
+    "pom_logo": {
+      "src": "../../images/pom_logo.png",
+      "alt": "Power of Many logo"
+    },
+    "pom_logotype": {
+      "src": "../../images/pom_logotype.png",
+      "alt": "Power of Many logotype"
     }
   }
 }
