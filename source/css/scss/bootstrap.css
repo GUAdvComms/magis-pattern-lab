@@ -1,0 +1,39 @@
+/**
+ * This stylesheet is for styles you want to include 
+ * addtion to bootstrap and pattern-lab defealt style
+ */
+/* line 6, bootstrap.scss */
+.caslon {
+  font-family: adobe-caslon-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 12, bootstrap.scss */
+.futura {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* line 18, bootstrap.scss */
+.futura-bold {
+  font-family: futura-pt-bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* line 24, bootstrap.scss */
+.font-weight-medium {
+  font-weight: 500;
+}
+
+/* line 28, bootstrap.scss */
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+/* line 32, bootstrap.scss */
+.font-weight-bolder {
+  font-weight: 800;
+}
