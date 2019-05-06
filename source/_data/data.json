@@ -49,5 +49,7 @@
       "src": "../../images/pom_logotype.png",
       "alt": "Power of Many logotype"
     }
-  }
+  },
+  "btnText" : "Button",
+  "btnClass" : "btn-primary"
 }
