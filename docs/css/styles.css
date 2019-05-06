@@ -3,6 +3,19 @@
  * addtion to bootstrap and pattern-lab defealt style
  */
 
+body{
+    font-family: adobe-caslon-pro, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.font-secondary{
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;    
+}
+
+
 .caslon{
     font-family: adobe-caslon-pro, serif;
     font-style: normal;
@@ -32,4 +45,5 @@
 .font-weight-bolder{
     font-weight: 800;
 }
+
 
