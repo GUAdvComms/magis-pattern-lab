@@ -50,6 +50,10 @@
       "alt": "Power of Many logotype"
     }
   },
-  "btnText" : "Button",
-  "btnClass" : "btn-primary"
+  "btnText" : "Read More",
+  "btnClass" : "btn-dark",
+  "btnOutlineClass" : "btn-outline-dark",
+  "btnSecondaryClass" : "btn-secondary",
+  "btnSecondaryOutlineClass" : "btn-outline-secondary",
+  "textButtonClass" : "text-btn"
 }

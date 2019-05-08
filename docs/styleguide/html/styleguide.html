@@ -8,12 +8,12 @@
     <!-- Add typekit font -->  
     <link rel="stylesheet" href="https://use.typekit.net/ags0ufs.css">
     <!-- Add Pattern-lab scaffolding -->  
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1557258205" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1557345447" media="all" />
     
     <!-- Add bootstrap -->  
-    <link rel="stylesheet" href="../../css/bootstrap.min.css?1557258205" media="all" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css?1557345447" media="all" />
       
-    <link rel="stylesheet" href="../../css/styles.css?1557258205" media="all" />
+    <link rel="stylesheet" href="../../css/styles.css?1557345447" media="all" />
       
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     <!-- never cache patterns -->
@@ -23,8 +23,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1557258205" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1557258205" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1557345447" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1557345447" media="all" />
     <!-- End Pattern Lab -->
   
   </head>
@@ -91,8 +91,8 @@
         <span class="sg-label"><code>$info</code>: #00b5e2</span>
 	</li>
     <li>
-		<span class="sg-swatch" style="background: #003da5;"></span>
-        <span class="sg-label"><code>$light</code>: #003da5</span>
+		<span class="sg-swatch" style="background: #ffffff;"></span>
+        <span class="sg-label"><code>$light</code>: #ffffff</span>
 	</li>
     <li>
 		<span class="sg-swatch" style="background: #041e42;"></span>
@@ -191,38 +191,38 @@
   <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-fonts"></div>
     
   <div class="sg-pattern-example">
-    <div><small>Adobe Caslon</small></div><br>
+    <div><p>Adobe Caslon</p></div>
 
-<div>
+<div class ="caslon">
     ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()
 </div>
-<div>
+<div class ="caslon">
     <em>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()</em>
 </div>
-<div>
+<div class ="caslon">
     <strong>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()</strong>
 </div>
 <hr>
 
-<div><small>Futura</small></div><br>
+<div><p>Futura</p></div>
 
-<div class="font-secondary">
+<div>
     ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()
 </div>
-<div class="font-secondary">
+<div>
     <em>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()</em>
 </div>
-<div class="font-secondary">
+<div>
     <strong>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
     abcdefghijklmnopqrstuvwxyz<br>
     1234567890!@#$%^*()</strong>
@@ -265,12 +265,47 @@
   <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-button"></div>
     
   <div class="sg-pattern-example">
-    <button class="btn btn-primary">Button</button>
+    <div class ="container-fluid">
+    <div class ="row">
+        <div class ="col pt-4 pb-4">
+            <div class ="pb-3">
+                <button class="btn btn-outline-dark">Read More</button>
+            </div>
+            <div class ="pb-3">
+                <button class="btn btn-lg btn-outline-dark">Read More</button>
+            </div>
+            <div class ="pb-3">
+                <button class="btn btn-sm btn-outline-dark">Read More</button>
+            </div>
+             <div>
+                <button class="btn btn-block btn-outline-dark">Read More</button>
+            </div>
+
+        </div>
+        <div class ="col bg-dark pt-4 pb-4">
+            <div class ="pb-3">
+                <button class="btn btn-dark">Read More</button>
+            </div>
+            <div class ="pb-3">
+                <button class="btn btn-lg btn-dark">Read More
+            </button>
+            </div>
+            <div class ="pb-3">
+                <button class="btn btn-sm btn-dark">Read More</button>
+            </div>
+            <div>
+                <button class="btn btn-block btn-dark">Read More
+            </button>
+            </div>
+        </div>
+    </div>
+
+</div>
 
   </div>
   
   <script type="text/json" id="sg-pattern-data-atoms-button" class="sg-pattern-data">
-    {"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"atoms","patternSubtype":"buttons"},"patternDesc":"<p>[Insert description here]<\/p>","patternExtension":"twig","patternName":"Button","patternPartial":"atoms-button","patternState":""}
+    {"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"atoms","patternSubtype":"buttons"},"patternDesc":"<p>Buttons used in Bootstrap 4 theming. Each maps to scss variables.<\/p>\n\n<hr \/>\n\n<h3 class =\"sg-pattern-title\">Guidelines<\/h3>\n\n<p>Global variables are defined in <code>scss\/_variables.scss<\/code><\/p>\n\n<ul>\n    <li>Default modifier classes with the <code>.btn-*<\/code> ones to provide all background images and colors on any button.\n    <\/li>\n    <li>Replace the default modifier classes with the <code>.btn-outline-*<\/code> ones to remove all background images and colors on any button.\n    <\/li>\n    <li>Hover effect ease in and out for a transition duration of 0.3 seconds.\n    <\/li>\n    <li>Add <code>.btn-lg<\/code> or <code>.btn-sm<\/code> for additional sizes.<\/li>\n    <li>Create block level buttons\u2014those that span the full width of a parent\u2014by adding <code>.btn-block<\/code>.\n    <\/li>\n<\/ul>","patternExtension":"twig","patternName":"Button","patternPartial":"atoms-button","patternState":""}
   </script>
 </div><!--end .sg-pattern-->                        <div id="atoms-text-button" class="sg-pattern">
   <div class="sg-pattern-head">
@@ -293,7 +328,7 @@
   <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-text-button"></div>
     
   <div class="sg-pattern-example">
-    <a href="" class="btn btn-primary">Button</a>
+    <a href="" class="text-btn">Read More</a>
   </div>
   
   <script type="text/json" id="sg-pattern-data-atoms-text-button" class="sg-pattern-data">
@@ -764,10 +799,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1557258205">
+<script id="pl-js-polyfill-insert-1557345447">
   (function() {
     if (self != top) {
-      var cb = '1557258205';
+      var cb = '1557345447';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -777,10 +812,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1557258205">
+<script id="pl-js-insert-1557345447">
   (function() {
     if (self != top) {
-      var cb = '1557258205';
+      var cb = '1557345447';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
