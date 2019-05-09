@@ -55,5 +55,5 @@
   "btnOutlineClass" : "btn-outline-dark",
   "btnSecondaryClass" : "btn-secondary",
   "btnSecondaryOutlineClass" : "btn-outline-secondary",
-  "textButtonClass" : "text-btn"
+  "textButtonClass" : "btn--text"
 }

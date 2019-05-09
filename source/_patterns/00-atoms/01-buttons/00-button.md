@@ -7,6 +7,8 @@ Buttons used in Bootstrap 4 theming. Each maps to scss variables.
 ---
 <h3 class ="sg-pattern-title">Guidelines</h3>
 <p>Global variables are defined in <code>scss/_variables.scss</code></p>
+<p>Button styles are defined in <code>scss/_buttons.scss</code></p>
+<p>Button variants are defined in <code>scss/mixins/_buttons.scss</code></p>
 
 <ul>
     <li>Default modifier classes with the <code>.btn-*</code> ones to provide all background images and colors on any button.

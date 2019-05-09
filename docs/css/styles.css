@@ -3307,13 +3307,27 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 142, scss/_buttons.scss */
-.text-btn:hover {
+/* line 141, scss/_buttons.scss */
+.btn--text {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  /* line 141, scss/_buttons.scss */
+  .btn--text {
+    transition: none;
+  }
+}
+/* line 144, scss/_buttons.scss */
+.btn--text:hover {
   text-decoration: underline;
 }
-/* line 145, scss/_buttons.scss */
-.text-btn:after {
+/* line 147, scss/_buttons.scss */
+.btn--text:after {
   content: "\00a0>";
+}
+/* line 150, scss/_buttons.scss */
+.btn--text:focus {
+  box-shadow: 0 0 0 0.2rem #00a1ca;
 }
 
 /* line 1, scss/_transitions.scss */
