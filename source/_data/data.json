@@ -1,9 +1,9 @@
 {
   "title" : "Magis theme",
   "svg":{
-      "single_line_logo" : {
-      "src" : "../../images/Georgetown_logotype_H_blackRGB.jpg",
-      "alt" : "Single-line Logo black",
+      "logo" : {
+      "fallback" : "../../images/Georgetown_logotype_H_blackRGB.jpg",
+      "title" : "Georgetown University Logo",
       "fill": "purple"
     }
   },
