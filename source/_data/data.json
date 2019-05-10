@@ -1,5 +1,12 @@
 {
   "title" : "Magis theme",
+  "svg":{
+      "single_line_logo" : {
+      "src" : "../../images/Georgetown_logotype_H_blackRGB.jpg",
+      "alt" : "Single-line Logo black",
+      "fill": "purple"
+    }
+  },
   "img": {
     "abbr" : {
       "src" : "../../images/GU_AbbreviatedMark_blueRGB.jpg",
@@ -9,7 +16,7 @@
       "src" : "../../images/GU_AbbreviatedMarkREV_blueRGB.jpg",
       "alt" : "Abbreviated Logo Inversed"
     },
-    "single_logo_black" : {
+      "single_logo_black" : {
       "src" : "../../images/Georgetown_logotype_H_blackRGB.jpg",
       "alt" : "Single-line Logo black"
     },
