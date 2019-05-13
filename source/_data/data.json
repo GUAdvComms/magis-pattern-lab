@@ -4,7 +4,7 @@
       "logo" : {
       "fallback" : "../../images/Georgetown_logotype_H_blackRGB.jpg",
       "title" : "Georgetown University Logo",
-      "fill": "#041e42"
+      "fill": "#ffffff"
     }
   },
   "img": {

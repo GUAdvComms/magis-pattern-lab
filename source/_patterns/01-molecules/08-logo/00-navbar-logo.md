@@ -1,5 +1,5 @@
 ---
-title: Header Logo
+title: Navbar Logo
 ---
 
 The horizontal logotype (university’s name) may be used separately from seal.
