@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title>Magis theme</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    
+    <!-- Add typekit font -->  
+    <link rel="stylesheet" href="https://use.typekit.net/ags0ufs.css">
+    <!-- Add Pattern-lab scaffolding -->  
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1558377792" media="all" />
+    
+    <!-- Add bootstrap -->  
+    <link rel="stylesheet" href="../../css/bootstrap.min.css?1558377792" media="all" />
+      
+    <link rel="stylesheet" href="../../css/styles.css?1558377792" media="all" />
+      
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    <!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1558377792" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1558377792" media="all" />
+    <!-- End Pattern Lab -->
+  
+  </head>
+  <body class="">
+    
+<svg width="100%" height="100%" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>.logo-fill{fill:#041e42;}</style>
+    <title>icon/print</title>
+    <g id="icon/print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path class="logo-fill" d="M27.6294118,23.4411765 C27.6294118,23.6882353 27.3823529,23.8117647 27.2588235,23.8117647 L24.5411765,23.8117647 L24.5411765,25.7882353 C24.5411765,26.4058824 24.0470588,27.0235294 23.3058824,27.0235294 L11.3235294,27.0235294 C10.7058824,27.0235294 10.0882353,26.5294118 10.0882353,25.7882353 L10.0882353,23.8117647 L7.37058824,23.8117647 C7.12352941,23.8117647 7,23.5647059 7,23.4411765 L7,18.3764706 C7,17.0176471 8.11176471,16.0294118 9.34705882,16.0294118 L10.0882353,16.0294118 L10.0882353,9.23529412 C10.0882353,8.61764706 10.5823529,8 11.3235294,8 L19.6,8 C20.2176471,8 21.2058824,8.37058824 21.5764706,8.86470588 L23.4294118,10.7176471 C23.9235294,11.2117647 24.2941176,12.0764706 24.2941176,12.6941176 L24.2941176,15.9058824 L25.0352941,15.9058824 C26.3941176,15.9058824 27.3823529,17.0176471 27.3823529,18.2529412 L27.3823529,23.4411765 L27.6294118,23.4411765 Z M22.9352941,17.5117647 L22.9352941,12.8176471 L20.9588235,12.8176471 C20.3411765,12.8176471 19.7235294,12.3235294 19.7235294,11.5823529 L19.7235294,9.60588235 L11.8176471,9.60588235 L11.8176471,17.5117647 L22.9352941,17.5117647 Z M22.9352941,25.4176471 L22.9352941,22.2058824 L11.8176471,22.2058824 L11.8176471,25.4176471 L22.9352941,25.4176471 Z M25.2823529,17.5117647 C24.7882353,17.5117647 24.5411765,17.8823529 24.5411765,18.2529412 C24.5411765,18.7470588 24.9117647,18.9941176 25.2823529,18.9941176 C25.6529412,18.9941176 26.0235294,18.6235294 26.0235294,18.2529412 C26.0235294,17.8823529 25.6529412,17.5117647 25.2823529,17.5117647 Z"></path>
+    </g>
+</svg>  
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+  {"cssEnabled":false,"lineage":[],"lineageR":[],"patternBreadcrumb":{"patternType":"atoms","patternSubtype":"images"},"patternDesc":"","patternExtension":"twig","patternName":"Print Icon","patternPartial":"atoms-print","patternState":"inprogress","extraOutput":[]}
+</script>
+
+<script>
+  /*!
+  * scriptLoader - v0.1
+  *
+  * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+  * Licensed under the MIT license
+  *
+  */
+  
+  var scriptLoader = {
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1558377792">
+  (function() {
+    if (self != top) {
+      var cb = '1558377792';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1558377792">
+  (function() {
+    if (self != top) {
+      var cb = '1558377792';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+  
+  </body>
+</html>
