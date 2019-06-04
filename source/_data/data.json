@@ -11,6 +11,7 @@
         "fill" : "#041e42"
     }
   },
+  "column" : "col",    
   "img": {
     "abbr" : {
       "src" : "../../images/GU_AbbreviatedMark_blueRGB.jpg",

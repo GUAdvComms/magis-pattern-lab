@@ -15,5 +15,9 @@ The abbreviated logotype (university’s initials) may be used when there is lim
     <li>The letters in the abbreviated logotype must both be the same size..</li>
     <li>The minimum width of the abbreviated logotype is 0.25" or 18 pixels wide on screen.</li>
     <li>The minimum amount of clear space around the logotype is calculated by using the width of the “N” in “Georgetown”</li>
+    <li>Suggested Size Spec: <code>width: 40px</code></li>
+    <li>Suggested location: <code>header</code></li>
+    <li>Suggested Breakpoint: Visible in mobile, browser width <code>≤ 992px</code></li>
+    
 </ul>
 
