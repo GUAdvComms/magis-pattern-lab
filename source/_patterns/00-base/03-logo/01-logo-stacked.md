@@ -15,8 +15,5 @@ The stacked logotype (university’s name) may be used separately from seal.
     <li>The words in the logotype must both be the same size.</li>
     <li>The minimum width of the stacked logotype is 0.95 inches or 68 pixels wide on screen.</li>
     <li>The minimum amount of clear space around the logotype is calculated by using the width of the “N” in “Georgetown”</li>
-    <li>Suggested Size Spec: <code>width: 300px</code></li>
-    <li>Suggested location: <code>footer</code></li>
-    <li>Suggested Breakpoint: Visible in desktop, tablet, and mobile</li>
 </ul>
 

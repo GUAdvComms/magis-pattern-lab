@@ -1,0 +1,12 @@
+<input 
+       type="text" 
+       class="form-control {{styleClass}}" 
+       aria-label="{{ariaLabel}}" 
+       aria-describedby="{{ariaDescribedby}}"
+       placeholder="{{placeholder}}"
+       id="{{ name|default("text") }}"
+       {% if disabled %}disabled="disabled"{% endif %}
+       {% if required %}required="required"{% endif %}
+       {% if maxlength %}maxlength="{{ maxlength }}"{% endif %}
+       size="{{ size|default("50") }}"
+       >

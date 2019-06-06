@@ -1,0 +1,50 @@
+//
+// Base form styles
+//
+
+.form-check{
+	input[type='checkbox']{
+		position: absolute;
+		top: 0;
+		left: -9999px;
+		&:focus + label::before{
+			outline: $info solid 3px;
+		}
+		&:checked + label{
+			color: $dark;
+			&::before{
+				background-color: $dark;
+			}
+			&::after{
+				opacity: 1;
+			}
+		}
+		& + label{
+			position: relative;
+			cursor: pointer;
+			margin-bottom: 0;
+			&::before{
+				left: 1px;
+				width: 26px;
+				height: 26px;
+				margin: -15px 0 0;
+				border: 1px solid $dark;
+				background-color: $white; 
+			}
+			&::after{
+				left: 10px;
+				width: 8px;
+				height: 12px;
+				margin: -9px 0 0;
+				border-right: 3px solid $dark;
+				border-bottom: 3px solid $dark;
+				opacity: 0;
+			}
+			&::before, &::after{
+				position: absolute;
+    			top: 50%;
+    			content: '';
+			}
+		}
+	}
+}

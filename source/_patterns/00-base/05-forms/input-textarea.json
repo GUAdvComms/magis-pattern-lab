@@ -1,0 +1,9 @@
+{
+  "name": "textarea",
+  "rows": "4",
+  "cols": "50",
+  "disabled": false,
+  "maxlength": false,
+  "ariaLabel": "textarea aria label",
+  "placeholder": "Your Message"
+}

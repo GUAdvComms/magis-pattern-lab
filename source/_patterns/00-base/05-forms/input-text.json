@@ -1,0 +1,10 @@
+{
+  "name": "text",
+  "disabled": false,
+  "maxlength": false,
+  "placeholder": "Helper Text",
+  "size": "25",
+  "ariaLabel" : "Recipient's username",
+  "ariaDescribedby" : "Recipient's username"   
+    
+}

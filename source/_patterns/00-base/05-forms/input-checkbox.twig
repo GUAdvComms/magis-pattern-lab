@@ -1,0 +1,13 @@
+<div class="form-check">
+    <input
+        class="form-check-input"
+        type="checkbox"
+        id="{{ name|default("checkbox") }}"
+        name="{{ name|default("checkbox") }}"
+        value="{{ value|default('Car') }}"
+        {% if disabled %}disabled="disabled"{% endif %}
+    >
+    <label class="form-check-label" for="exampleCheck1">{{label}}
+    
+    </label>
+</div>
